@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_tutorial",
+  "version": "1.0.0",
+  "description": "Simple examples to explore nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clior007/nodejs_tutorial.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Lior Cohen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clior007/nodejs_tutorial/issues"
+  },
+  "homepage": "https://github.com/clior007/nodejs_tutorial#readme"
+}
