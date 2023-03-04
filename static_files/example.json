@@ -1,0 +1,9 @@
+{
+    "nodejs" : "tutorial",
+    "lessons" :
+    {
+        "events" : "events.js",
+        "filesystem" : "filesystem.js",
+        "httpserver" : "httpserver"
+    }
+}
