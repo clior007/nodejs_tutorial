@@ -2,3 +2,5 @@ write_stream_unzip.txt
 write_stream_zip.txt.gz
 write_stream.txt
 writeStream_pipe.txt
+package-lock.json
+node_modules/
