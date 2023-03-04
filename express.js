@@ -6,17 +6,21 @@ const app = express();
 
 class ExpressHttpServer {
     reqRes() {
+        // http://localhost:3004
         app.get('/', (req, res) => {
-            res.send('index route using express');
+            res.send('express example - index routing');
         });
 
+        // http://localhost:3004/example
         app.get('/example', (req, res) => {
-            res.send('example route using express')
+            res.send('express example - routing')
         });
 
+        // http://localhost:3004/example/lior/telaviv?search=keyword&sort=price
         app.get('/example/:name/:city', (req, res) => {
-            res.send(`example route WITH PARAMS (name=${req.params.name}, city=${req.params.city}) using express`);
             console.log(`the params in the request are: name => ${req.params.name}, city: ${req.params.city}`);
+            console.log(`the queries in the request are: ${req.query}`);
+            res.send(`express example - route WITH PARAMS (name=${req.params.name}, city=${req.params.city}) and queries (${req.query})`);
         });
 
         app.listen(3004);
