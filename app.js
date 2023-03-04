@@ -58,8 +58,14 @@ rw_streams.gzipStream();
 rw_streams.on('writeGzipStreamFinished', () => rw_streams.gunzipStream());
 /************************/
 
-/******** streams ********/
+/******** HttpServer ********/
 const http_module = require('./httpserver');
-server = new http_module.HttpServer();
+var server = new http_module.HttpServer();
 server.reqRes();
 server.servingStaticFiles();
+/************************/
+
+/******** ExpressHttpServer ********/
+const express_module = require('./express');
+var expressServer = new express_module.ExpressHttpServer();
+expressServer.reqRes();
