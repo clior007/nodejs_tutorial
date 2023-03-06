@@ -69,3 +69,4 @@ server.servingStaticFiles();
 const express_module = require('./express');
 var expressServer = new express_module.ExpressHttpServer();
 expressServer.reqRes();
+expressServer.servingStaticFiles()
