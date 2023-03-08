@@ -23,7 +23,7 @@ class ExpressHttpServer {
             // Use params for mandatory req data and query for optional req data
             console.log(`the params in the request are: name => ${req.params.name}, city: ${req.params.city}`);
             console.log(`the queries in the request are: ${JSON.stringify(req.query)}`);
-            res.send(`express example - route WITH PARAMS lior (name=${req.params.name}, city=${req.params.city}) and queries (${JSON.stringify(req.query)})`);
+            res.send(`express example - route WITH PARAMS (name=${req.params.name}, city=${req.params.city}) and queries (${JSON.stringify(req.query)})`);
         });
 
         app.listen(3004);

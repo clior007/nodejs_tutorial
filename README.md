@@ -22,3 +22,8 @@ Let's assume we would like to add dependency to [express web framework](https://
 To do that use the terminal and type:
 `npm install express`
 Now open the json.package and see that `dependencies` was added to the [package.json](./package.json)
+
+#### 3. How to use Npm to install the current module dependencies?
+
+Dependencies of a module can be "heavy" and therefore it is not a recommanded practice to keep them in the source control.
+To get the module dependencies, use the terminal and just type: `npm install` 
