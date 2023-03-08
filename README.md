@@ -5,7 +5,7 @@ Sharing very simple exampels during my journey in getting to know nodejs.
 
 ### Few notes:
 #### 1. How to use Npm (Node pckg manager) to create a package out of this tutorial?
-The package json is used to hold metadata (name, version, license, etc.) for our project.
+The package json is used to hold metadata (name, version, license, etc.) for our project. Most important, it maintains the dependencies. The package-lock file holds the relevant versions so it is important to keep it also in the source control.
 You should use it as follows:
 
 1. using the terminal, type:
