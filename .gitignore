@@ -3,3 +3,4 @@ write_stream_zip.txt.gz
 write_stream.txt
 writeStream_pipe.txt
 node_modules/
+launch.json
