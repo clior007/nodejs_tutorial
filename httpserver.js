@@ -4,11 +4,14 @@ const fs = require('fs');
 class HttpServer {
     reqRes(){
         var server = http.createServer((req, res) => {
+            // main route
             if (req.url == '/') {
                 console.log(`req received on root url`)
                 res.write(`hello world`);
                 res.end();
             }
+
+            // all other routes
             else {
                 console.log(`req received NOT on root url`);
                 res.write(`req received not on root url`);

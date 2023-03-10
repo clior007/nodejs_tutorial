@@ -70,3 +70,15 @@ const express_module = require('./express');
 var expressServer = new express_module.ExpressHttpServer();
 expressServer.reqRes();
 expressServer.servingStaticFiles()
+/************************/
+
+/******** ejs ********/
+const ejs = require('./ejs');
+/************************/
+
+/******** middleware ********/
+const middleware = require('./middleware');
+/************************/
+
+/******** mongo ********/
+const mongo = require('./mongo')

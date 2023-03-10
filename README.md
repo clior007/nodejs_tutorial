@@ -25,5 +25,5 @@ Now open the json.package and see that `dependencies` was added to the [package.
 
 #### 3. How to use Npm to install the current module dependencies?
 
-Dependencies of a module can be "heavy" and therefore it is not a recommanded practice to keep them in the source control.
+Dependencies of a module can be "heavy" and therefore it is not a recommanded practice to keep them in source control.
 To get the module dependencies, use the terminal and just type: `npm install` 
